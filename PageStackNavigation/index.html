@@ -13,6 +13,11 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/linkstyles.css" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/demo2.css" /> -->
+	<link rel="stylesheet" type="text/css" href="css/set1.css" />
 	<script src="js/modernizr-custom.js"></script>
 </head>
 
@@ -37,28 +42,102 @@
 	</nav>
 	<!-- /navigation-->
 	<!-- pages stack -->
-	<div class="pages-stack">
+	<div class="pages-stack"">
 		<!-- page -->
 		<div class="page" id="page-home">
-			<!-- Blueprint header -->
-			<header class="bp-header cf">
-				<p><img class="poster1" src="images/aurora.gif" alt="img01" /></p>
-				<!-- <p style="clear: both;"><span class="bp-header__present">AURORA<span class="bp-tooltip bp-icon bp-icon--about" data-content="Aurora is IIITD's UAV Team"></span></span></p> -->
-				<!-- <h1 class="bp-header__title">Page Stack Navigation</h1> -->
-				<!-- <p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p> -->
-				<!-- <nav class="bp-nav"> -->
-					<!-- <a class="bp-nav__item bp-icon bp-icon--prev" href="http://tympanus.net/Blueprints/ZoomSlider/" data-info="previous Blueprint"><span>Previous Blueprint</span></a> -->
-					<p class="side" align="Center" >
-					<a class="link link--social link--faded" href="https://www.facebook.com/AuroraIIITD/"><i class="fa fa-facebook"></i><span class="text-hidden">Facebook</span></a>
-					<a class="link link--social link--faded" href="https://www.youtube.com/channel/UCTipI66v7ZxGX7FArODu4XQ"><i class="fa fa-youtube-play"></i><span class="text-hidden">YouTube</span></a>
-					</p>
-					<!--a class="bp-nav__item bp-icon bp-icon--next" href="" data-info="next Blueprint"><span>Next Blueprint</span></a-->
-					<!-- <a class="bp-nav__item bp-icon bp-icon--drop" href="http://tympanus.net/codrops/?p=25311" data-info="back to the Codrops article"><span>back to the Codrops article</span></a> -->
-					<!-- <a class="bp-nav__item bp-icon bp-icon--archive" href="http://tympanus.net/codrops/category/blueprints/" data-info="Blueprints archive"><span>Go to the archive</span></a> -->
-				<!-- </nav> -->
-			</header>
-			<!-- <img class="poster" src="images/1.jpg" alt="img01" /> -->
+			<div class="grid" style="background:url(images/abstract2.jpg)no-repeat center center;">
+				<figure class="effect-zoe" >
+					<img class="logoimage" src="images/aurora2.gif" alt="img25">
+					<figcaption>
+						<h2 style="font-size: 1.15em;text-align: center;">IIITD's &nbsp;UAV &nbsp;TEAM</h2>
+						<p class="icon-links">
+			
+							<!-- <a href="#"><span class="icon-eye"></span></a> -->
+							<a class="link link--social link--faded" target="_blank" href="https://www.facebook.com/AuroraIIITD/"><i class="fa fa-facebook"></i><span class="text-hidden">Facebook</span></a>
+							<a class="link link--social link--faded" target="_blank" href="https://www.youtube.com/channel/UCTipI66v7ZxGX7FArODu4XQ"><i class="fa fa-youtube-play"></i><span class="text-hidden">YouTube</span></a>
+							<!-- <a href="#"><span class="icon-paper-clip"></span></a> -->
+						</p>
+						<!-- <p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p> -->
+					</figcaption>			
+				</figure>
+				
+			</div>
+				
+			<div class="homecontent">
+				<div class="grid__item color-2">
+				<a class="link link--surinami"><span data-letters-l="Abo" data-letters-r="ut">About</span></a>
+				</div>
+				<p>Aurora, established in early 2015, is a group of students from Indraprastha Institute of Information Technology, Delhi (IIITD) coming together with a common interest in research and with a zeal to develop innovative products, in the field of Unmanned Aerial Vehicles (UAVs).
+				<br \>
+				We identify ourselves as “Aurora”, symbolic of the majestic and transcending aurora lights of the Arctic Region and our institute IIITD. The team has been working with an aim to incorporate innovative technologies in the UAV’s, to bring multifunctional capabilities in it.
+				<br \>
+				As part of the ‘Infosys Centre of Artificial Intelligence’ at IIIT-Delhi, Aurora aims to design industry-level UAVs which would solve real-life problems. The team comprises of a diverse group of students having expertise in computer vision, aeromodelling, computer networking, autonomous and embedded systems.
+				</p>
+				<br \><br\>
+				<div class="grid__item color-2">
+				<a class="link link--surinami"><span data-letters-l="Vis" data-letters-r="ion">Vision</span></a>
+				</div>
+				<h3>Human Detection</h3>
+
+				<p>We started with the problem of human detection in aerial imagery. Though the final goal is to be able to do that from a height range at which a UAV flies ( 200 to 400 ft. ), because of lack of a proper dataset at the time, we started off with using the INRIA person dataset. An SVM was trained using HOG features extracted from this dataset. Then, we picked up a random video from YouTube and applied this detection strategy. Here is the <span><a style="color:#3FADA8" href="https://drive.google.com/file/d/0B7yohMcArp6VeEd5TXcwVUpGWXc/view?usp=sharing">link</a></span> to the result.
+				<br \>
+				Some Pictures related to the result:</p>
+					<div class="w3-content w3-section" style="max-width:500px">
+						<img class="mySlides w3-animate-fading" src="images/vision1.png" style="width:100%">
+						<img class="mySlides w3-animate-fading" src="images/vision2.png" style="width:100%">
+						
+					</div>
+
+					<script>
+					var myIndex = 0;
+					carousel();
+
+					function carousel() {
+					    var i;
+					    var x = document.getElementsByClassName("mySlides");
+					    for (i = 0; i < x.length; i++) {
+					       x[i].style.display = "none";  
+					    }
+					    myIndex++;
+					    if (myIndex > x.length) {myIndex = 1}    
+					    x[myIndex-1].style.display = "block";  
+					    setTimeout(carousel, 9000);    
+					}
+					</script>
+					<h3>Letter Recognition</h3>
+					<p>Again, the final goal is to be able to detect and recognise letters in aerial imagery collected from a height of about 200 ft. to 400 ft. The dimension of letters being of about 8 ft. by 8 ft. To start off with the task we scaled down the whole problem and collected some data. Implementation of the detection and recognition strategy is underway.</p>
+					<div class="w3-content w3-section" style="max-width:500px">
+						<img class="mySlides2 w3-animate-fading" src="images/letter1.png" style="width:100%">
+						<img class="mySlides2 w3-animate-fading" src="images/letter2.png" style="width:100%">
+						
+					</div>
+
+					<script>
+					var myIndex = 0;
+					carousel();
+
+					function carousel() {
+					    var i;
+					    var x = document.getElementsByClassName("mySlides2");
+					    for (i = 0; i < x.length; i++) {
+					       x[i].style.display = "none";  
+					    }
+					    myIndex++;
+					    if (myIndex > x.length) {myIndex = 1}    
+					    x[myIndex-1].style.display = "block";  
+					    setTimeout(carousel, 7000);    
+					}
+					</script>
+			</div>
+
+	
+
+
+
+
+
 		</div>
+		
 		<!-- /page -->
 		<div class="page" id="page-docu">
 			<header class="bp-header cf">

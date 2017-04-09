@@ -4,6 +4,15 @@ html.js,
 	height: 100vh;
 }
 
+.homecontent{
+	margin-top: 5%;
+	margin-left:5%;
+	width: 90%;
+	/*border:solid;*/
+	font-size: 1.2em;
+}
+
+
 /* Pages nav */
 
 .pages-nav {
@@ -152,13 +161,17 @@ html.js,
 .js .page {
 	position: relative;
 	z-index: 5;
-    	overflow: scroll;
+    overflow: scroll;
 	width: 100%;
 	height: 100vh;
 	pointer-events: auto;
 	background: #DEF5FF;
 	box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
 }
+.logoimage{
+	
+}
+
 
 .js .pages-stack--open .page {
 	cursor: pointer;
@@ -209,14 +222,37 @@ html.js,
 }
 
 .poster1 {
-	/*position: relative;*/
-	margin-left: 37%;
+	position: absolute;
+	margin-left: 40%;
 	height: auto;
-	width: 25%;
+	width: 20%;
+	/*margin-bottom: 10%;*/
 	max-width: 100%;
 	max-height: 80%;
 }
 
+.belowlogo{
+	margin-top: 10%;
+	/*margin-right: 10%;*/
+	margin-left: 30.5%;
+	font-size: 1.2em;
+	position: absolute;
+	/*background-color: #31C1FF;*/
+	/*border-radius: 3%;*/
+    font-size: 1.5vw;
+    /*font-weight: bolder;*/
+    transition: background-color 0.2s;
+    color: black;	
+
+}
+.belowlogo:hover{
+	/*color:grey;*/
+	background-color: #31C1FF;
+	/*border:solid;*/
+	/*color: red;*/
+    
+
+}
 
 
 /* Menu button */
