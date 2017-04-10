@@ -12,6 +12,10 @@ html.js,
 	font-size: 1.2em;
 }
 
+.design{
+	max-width: 100%;
+	height: auto;
+}
 
 /* Pages nav */
 
@@ -168,9 +172,7 @@ html.js,
 	background: #DEF5FF;
 	box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
 }
-.logoimage{
-	
-}
+
 
 
 .js .pages-stack--open .page {

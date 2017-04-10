@@ -1,5 +1,5 @@
 /* General link styles */
-.link {
+/*.link {
 	outline: none;
 	text-decoration: none;
 	position: relative;
@@ -7,7 +7,7 @@
 	line-height: 1;
 	color: #9e9ba4;
 	display: inline-block;
-}
+}*/
 
 /* Kukuri */
 .link--kukuri {
