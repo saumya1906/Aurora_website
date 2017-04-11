@@ -94,6 +94,16 @@ html.js,
 	text-transform: uppercase;
 }
 
+.bloglink{
+	color: black;
+	font-size: 1.5em;
+	transition: color 0.2s;
+}
+
+.bloglink:hover {
+	color:#3fada8;
+}
+
 .link:hover,
 .link:focus {
 	color: #fff;
@@ -112,7 +122,7 @@ html.js,
 	width: 30px;
 	height: 2px;
 	margin: 5px 0 0 -15px;
-	background: #fff;
+	background: #3fada8;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 	-webkit-transform: scale3d(0, 1, 1);
